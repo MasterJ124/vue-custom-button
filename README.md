@@ -13,3 +13,23 @@ We recommend using npm to install，it not only makes development easier，but a
 ```
 npm install vue-custom-button-primary --save
 ```
+
+## Usage
+
+main.js
+
+```
+import "vue-custom-button-primary/lib/vue-custom-button-primary.css"
+```
+
+pages/index.vue
+
+```
+<template>
+  <VueCustomButtonPrimary>Primary Button</VueCustomButtonPrimary>
+</template>
+
+<script>
+import VueCustomButtonPrimary from "vue-custom-button-primary";
+</script>
+```

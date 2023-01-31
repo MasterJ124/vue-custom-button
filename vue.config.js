@@ -14,11 +14,6 @@ module.exports = defineConfig({
       fileName: "index.html",
     },
   },
-  // configureWebpack: {
-  //   externals: {
-  //     vue: "Vue",
-  //   },
-  // },
   chainWebpack: (config) => {
     config.module
       .rule("js")
