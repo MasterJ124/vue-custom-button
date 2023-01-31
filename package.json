@@ -1,6 +1,6 @@
 {
   "name": "vue-custom-button-primary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于Vue的自定义按钮",
   "main": "lib/vue-custom-button-primary.umd.min.js",
   "keywords": [
