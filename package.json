@@ -1,7 +1,17 @@
 {
-  "name": "vue-custom-button",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-custom-button-primary",
+  "version": "1.0.0",
+  "description": "基于Vue的自定义按钮",
+  "main": "dist/vue-custom-button-primary.umd.min.js",
+  "keywords": [
+    "vue",
+    "button"
+  ],
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -18,21 +28,10 @@
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-service": "~5.0.0",
     "eslint": "^7.32.0",
-    "eslint-plugin-vue": "^8.0.3"
-  },
-  "eslintConfig": {
-    "root": true,
-    "env": {
-      "node": true
-    },
-    "extends": [
-      "plugin:vue/vue3-essential",
-      "eslint:recommended"
-    ],
-    "parserOptions": {
-      "parser": "@babel/eslint-parser"
-    },
-    "rules": {}
+    "eslint-plugin-vue": "^8.0.3",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "vue-template-compiler": "^2.7.14"
   },
   "browserslist": [
     "> 1%",

@@ -23,4 +23,5 @@ module.exports = defineConfig({
       .loader("babel-loader")
       .tap((options) => options);
   },
+  lintOnSave: false,
 });
